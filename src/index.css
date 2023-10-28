@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* Hide the scrollbar and scrollbar track for Firefox */
+* {
+  scrollbar-width: none;
+  font-family: Mulish, sans-serif;
+  background-color: #fbf8f4;
+}
+
+.word-spacing {
+  /* Prevent line breaks */
+  text-rendering: optimizeLegibility; /* Improve text rendering */
+
+  word-spacing: 0.1em;
+}
